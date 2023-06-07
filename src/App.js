@@ -8,6 +8,8 @@ import List from "./components/List";
 import Item from "./components/Item";
 import Evento from "./components/Evento";
 import Form from "./components/Form";
+import Api from "./components/Api";
+
 
 function App() {
   const name = "Frankie Yoogan";
@@ -23,9 +25,18 @@ function App() {
     <div className="App">
       <h1>Testando Eventos</h1>
       
-      <Evento numero="1"></Evento>
-      <Evento numero="2"></Evento>
+      <Evento numero="1"/>
+      <br></br>
+      <Evento numero="2"/>
+      <br></br>
       <Form></Form>
+
+      <br></br>
+
+      
+      <Api></Api>
+
+
 
     </div>
   );
