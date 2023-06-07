@@ -19,6 +19,7 @@ function App() {
 
   const newName = name.toLocaleUpperCase();
   return (
+    
     <div className="App">
       <h1>Testando Eventos</h1>
       

@@ -1,4 +1,6 @@
 import { useState } from "react"
+import './Form.css'
+
 
 function Form() {
 
@@ -15,8 +17,30 @@ function Form() {
     const [password,setPassword] = useState()
 
     return (
+        
         <>
-            <h1>Meu cadastro</h1>
+       
+       <form onSubmit={cadastrarUsuario}>
+  <div className="mb-3">
+    <label htmlFor="name" className="form-label label">Digite o nome</label>
+    <input type="text" id="name" className="form-control input-text" pattern="[a-z A-Z]+"
+                     minLength="7" maxLength="25" required  aria-describedby="emailHelp" 
+                     onChange={((e) => setName(e.target.value))}/> 
+    
+  </div>
+  <div className="mb-3">
+    <label htmlFor="password" className="form-label label">Password</label>
+    <input type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+     className="form-control input-password" required  onChange={((e) => setPassword(e.target.value))}/> 
+  </div>
+        <div className="button">
+  <button type="submit" className="btn btn-primary button-style">Cadastrar</button>
+  </div>
+</form>
+
+        
+
+            {/* <h1>Meu cadastro</h1>
             <form onSubmit={cadastrarUsuario}>
                 <div>
                     <label htmlFor="name">Nome: </label>
@@ -33,7 +57,12 @@ function Form() {
                 <input type="submit" value="cadastrar" >
 
                 </input>
-            </form>
+            </form> */}
+
+            
+
+
+
         </>
     )
 }
