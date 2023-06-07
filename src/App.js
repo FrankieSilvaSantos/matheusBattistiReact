@@ -27,8 +27,7 @@ function App() {
       
       <Evento numero="1"/>
       <br></br>
-      <Evento numero="2"/>
-      <br></br>
+      
       <Form></Form>
 
       <br></br>
