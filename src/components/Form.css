@@ -15,19 +15,21 @@
     display: flex;
     flex-direction: column;
     
-    align-items: center;
+    justify-content: center;
   }
 
 
-  .button {
+  .button-style {
     position: relative;
-    right: 9em; 
-    
+    right: 3em;
   }
 
   .label {
-   
-    text-align: left;
+    position: relative;
+    right: 10.8em;
+    
   }
+
+
 
   

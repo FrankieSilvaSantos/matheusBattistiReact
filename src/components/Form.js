@@ -34,7 +34,7 @@ function Form() {
      className="form-control input-password" required  onChange={((e) => setPassword(e.target.value))}/> 
   </div>
         <div className="button">
-  <button type="submit" className="btn btn-primary button-style">Cadastrar</button>
+  <button type="submit" className="btn btn-secondary button-style">Cadastrar</button>
   </div>
 </form>
 
