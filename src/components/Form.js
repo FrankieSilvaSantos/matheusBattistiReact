@@ -22,15 +22,15 @@ function Form() {
        
        <form onSubmit={cadastrarUsuario}>
   <div className="mb-3">
-    <label htmlFor="name" className="form-label label">Digite o nome</label>
-    <input type="text" id="name" className="form-control input-text" pattern="[a-z A-Z]+"
+    <label htmlFor="name" className="form-label label">Nome</label>
+    <input type="text" placeholder="digite seu nome" id="name" className="form-control input-text" pattern="[a-z A-Z]+"
                      minLength="7" maxLength="25" required  aria-describedby="emailHelp" 
                      onChange={((e) => setName(e.target.value))}/> 
     
   </div>
   <div className="mb-3">
-    <label htmlFor="password" className="form-label label">Password</label>
-    <input type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+    <label htmlFor="password" className="form-label label">Senha</label>
+    <input type="password" placeholder="Digite sua senha" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
      className="form-control input-password" required  onChange={((e) => setPassword(e.target.value))}/> 
   </div>
         <div className="button">
