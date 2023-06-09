@@ -10,16 +10,21 @@ import Evento from "./components/Evento";
 import Form from "./components/Form";
 import Api from "./components/Api";
 import Condicional from "./components/Condicional";
+import OutraLista from "./components/OutraLista";
 
 function App() {
-  const name = "Frankie Yoogan";
-  const url = "https://via.placeholder.com/150";
+  // const name = "Frankie Yoogan";
+  // const url = "https://via.placeholder.com/150";
 
-  function soma(a, b) {
-    return a + b;
-  }
+  // function soma(a, b) {
+  //   return a + b;
+  // }
 
-  const newName = name.toLocaleUpperCase();
+  // const newName = name.toLocaleUpperCase();
+
+  const meusItens = ['React','Vue','Angular']
+
+
   return (
     
     <div className="App">
@@ -32,7 +37,7 @@ function App() {
 
       <br></br>
 
-      <Condicional></Condicional>
+    <OutraLista itens={meusItens}></OutraLista>
       
 
 
