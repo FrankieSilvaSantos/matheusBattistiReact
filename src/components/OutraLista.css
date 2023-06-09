@@ -2,4 +2,9 @@
     width: 20em;
     font-weight: bold;
     margin-top: 20px;
+    
+}
+
+.lista-item {
+    border: 2px solid black;
 }

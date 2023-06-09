@@ -10,7 +10,7 @@ function OutraLista({itens}) {
 
         <h1>Trabalhando com Arrays</h1>
 
-        <h3>Lista de Coisas Random</h3>
+        <h3 style={{color:"salmon",borderBottom:"2px solid red"}}>Lista de Coisas Random</h3>
 
         
              <ul  className="list-group lista-style">
@@ -18,7 +18,7 @@ function OutraLista({itens}) {
         
         itens.map((item,index) => (
 
-          <li key={index} className="list-group-item">{item}</li>
+          <li key={index} className="list-group-item lista-item">{item}</li>
           
            
        
