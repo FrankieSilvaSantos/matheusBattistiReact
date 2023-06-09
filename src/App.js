@@ -9,7 +9,7 @@ import Item from "./components/Item";
 import Evento from "./components/Evento";
 import Form from "./components/Form";
 import Api from "./components/Api";
-
+import Condicional from "./components/Condicional";
 
 function App() {
   const name = "Frankie Yoogan";
@@ -28,12 +28,12 @@ function App() {
       <Evento numero="1"/>
       <br></br>
       
-      <Form></Form>
+      {/* <Form></Form> */}
 
       <br></br>
 
+      <Condicional></Condicional>
       
-      <Api></Api>
 
 
 
