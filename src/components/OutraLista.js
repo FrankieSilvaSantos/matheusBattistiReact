@@ -1,7 +1,8 @@
 import './OutraLista.css'
 
-function OutraLista({itens}) {
+function OutraLista() {
 
+    const meusItens = ['React','Vue','Angular','Laravel','Flutter']
   
 
     return(
@@ -14,9 +15,9 @@ function OutraLista({itens}) {
 
         
              <ul  className="list-group lista-style">
-             {itens.length > 0 ?(
+             {meusItens.length > 0 ?(
         
-        itens.map((item,index) => (
+        meusItens.map((item,index) => (
 
           <li key={index} className="list-group-item lista-item">{item}</li>
           

@@ -22,7 +22,7 @@ function App() {
 
   // const newName = name.toLocaleUpperCase();
 
-  const meusItens = ['React','Vue','Angular']
+  
 
 
   return (
@@ -37,7 +37,7 @@ function App() {
 
       <br></br>
 
-    <OutraLista itens={meusItens}></OutraLista>
+    <OutraLista></OutraLista>
       
 
 
