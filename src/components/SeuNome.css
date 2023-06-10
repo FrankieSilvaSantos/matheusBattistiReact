@@ -1,0 +1,40 @@
+.label-name {
+    position: relative;
+    right: 7.5em;
+    font-weight: bold;
+}
+
+.input-name {
+    width: 300px;
+    outline: none !important;
+   border: none !important;
+   box-shadow: none !important;
+    
+    
+}
+
+ .input-name:active, .input-name:focus {
+    outline:1px solid purple !important;
+    border:.1px solid purple !important;
+    box-shadow:5px 5px purple !important;
+}
+
+.button-setar {
+
+    margin-top: 1em;
+    position: relative;
+    right: 3.5rem;
+    margin-left: .7em;
+}
+
+.button-container {
+    display: inline;
+    
+}
+
+.container {
+    border: 2px solid black;
+    padding: 30px;
+    background-color: pink;
+    box-shadow: 2px 2px black;
+}

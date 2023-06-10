@@ -11,6 +11,8 @@ import Form from "./components/Form";
 import Api from "./components/Api";
 import Condicional from "./components/Condicional";
 import OutraLista from "./components/OutraLista";
+import SeuNome from "./components/SeuNome";
+import Saudacao from "./components/Saudacao";
 
 function App() {
   // const name = "Frankie Yoogan";
@@ -37,7 +39,7 @@ function App() {
 
       <br></br>
 
-    <OutraLista></OutraLista>
+      <SeuNome></SeuNome>
       
 
 
