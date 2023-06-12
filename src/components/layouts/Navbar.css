@@ -1,0 +1,56 @@
+.nav {
+    width: 100%;
+  /* box-shadow: 5px 5px  white; */
+  border-bottom: 2px solid white;
+    border-radius: 10px;
+   
+  
+}
+
+.navbar-brand-img:hover  {
+
+    border-bottom: 3px solid white;
+   
+
+}
+
+.navbar-brand-img:focus {
+   
+    border-bottom: 3px solid white;
+}
+
+.nav-link-style:hover {
+
+    border-bottom: 3px solid white;
+}
+
+.nav-link-style:focus {
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+
+
+
+
+
+
+.right  {
+   
+    display: flex;
+    justify-content: end;
+
+
+/* margin-left: 60em; */
+
+   
+    /* position: relative;
+    left: 62em; */
+
+        
+    
+  
+}
+
+
+

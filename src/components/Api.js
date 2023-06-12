@@ -4,7 +4,7 @@ function Api() {
 
    
         const  [values,setValues] = useState([])
-    
+        const [valuesTheOne,setValuesTheOne] = useState([])
 
     function apiCall() {
          fetch('https://jsonplaceholder.typicode.com/todos')
@@ -23,6 +23,7 @@ function Api() {
             apiCall()
             
         },[])
+
   
        
 
@@ -31,16 +32,21 @@ function Api() {
         <>
 
         <h1>Getting API</h1>
-        <ul className="list-group">
-            {values.map((values,index) => {
-                return <li className="list-group-item" key={index}>User ID:{values.userId}  ID:{values.id} <br></br>
-                    Titulo: {values.title} <br></br> completed: {values.completed.toString()} </li>
-           
-  
-            })}
+        <form>
         
-       </ul>
-   
+ <ul className="list-group">
+ {values.map((values,index) => {
+     return <li className="list-group-item" key={index}>User ID:{values.userId}  ID:{values.id} <br></br>
+         Titulo: {values.title} <br></br> completed: {values.completed.toString()} </li>
+
+
+ })}
+
+</ul>
+
+        
+       
+       </form>
         </>
 
     )

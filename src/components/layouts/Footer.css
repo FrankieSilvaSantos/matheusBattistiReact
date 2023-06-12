@@ -1,0 +1,19 @@
+.footer-copyright {
+    background-color: rgb(173, 173, 173);
+}
+
+.footer-routes {
+    background-color: #f1f1f1;
+    position: relative;
+    top: 30em;
+    
+}
+
+.footer-a1 {
+    text-decoration: none;
+}
+
+.footer-a:hover {
+    text-decoration: underline;
+}
+

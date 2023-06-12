@@ -1,3 +1,4 @@
+
 import logo from "./logo.svg";
 import "./App.css";
 import HelloWorld from "./components/HelloWorld";
@@ -13,6 +14,14 @@ import Condicional from "./components/Condicional";
 import OutraLista from "./components/OutraLista";
 import SeuNome from "./components/SeuNome";
 import Saudacao from "./components/Saudacao";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Navbar from "./components/layouts/Navbar";
+import React from "react";
+import Home from "./components/pages/Home";
+import Empresa from "./components/pages/Empresa";
+import Contato from "./components/pages/Contato";
+import Footer from "./components/layouts/Footer";
+
 
 function App() {
   // const name = "Frankie Yoogan";
@@ -29,22 +38,30 @@ function App() {
 
   return (
     
-    <div className="App">
-      <h1>Testando Eventos</h1>
+    <Router>
+      <Navbar></Navbar>
+
+    <Routes>
+      <Route path="/" element={<Home/>}> </Route>
+
+      <Route path="/empresa" element={<Empresa></Empresa>}></Route>
       
-      <Evento numero="1"/>
-      <br></br>
+      <Route path="/contato" element={<Contato></Contato>}></Route>
+
+    </Routes>
+
+    <Footer></Footer>
+    </Router>
+
+
+
+
+
       
-      {/* <Form></Form> */}
-
-      <br></br>
-
-      <SeuNome></SeuNome>
-      
 
 
 
-    </div>
+   
   );
 }
 
