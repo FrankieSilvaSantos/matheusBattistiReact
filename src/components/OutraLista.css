@@ -1,4 +1,6 @@
 .lista-style {
+    position: relative;
+    left: 35em;
     width: 20em;
     font-weight: bold;
     margin-top: 20px;
@@ -7,4 +9,10 @@
 
 .lista-item {
     border: 2px solid black;
+}
+
+.titulo-outraLista {
+    color: white;
+ 
+    width: 500px;
 }

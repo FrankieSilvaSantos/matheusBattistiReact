@@ -1,6 +1,6 @@
 .label-name {
     position: relative;
-    right: 7.5em;
+    left: .3em;
     font-weight: bold;
 }
 
@@ -23,7 +23,7 @@
 
     margin-top: 1em;
     position: relative;
-    right: 3.5rem;
+    right: .5rem;
     margin-left: .7em;
 }
 
@@ -32,9 +32,13 @@
     
 }
 
-/* .container {
+ .container-seunome {
+    position: relative;
+    left: 30em;
     border: 2px solid black;
     padding: 30px;
     background-color: pink;
+    border-radius: 20px;
     box-shadow: 2px 2px black;
-} */
+    width: 30%;
+} 

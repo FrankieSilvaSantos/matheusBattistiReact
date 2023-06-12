@@ -14,10 +14,10 @@ function OutraLista() {
     return(
 
         <>
-
-        <h1>Trabalhando com Arrays</h1>
-        <h3 style={{color:"salmon",borderBottom:"2px solid red"}}>Lista de Coisas Random</h3>
-       
+        <div style={{textAlign:"center",marginTop:"30px",position:"relative",left:"30em"}}>
+        <h1 className='titulo-outraLista'>Trabalhando com Arrays</h1>
+        <h3 style={{borderBottom:"2px solid pink"}} className='titulo-outraLista'>Lista de Coisas Random</h3>
+        </div>
           
         
         

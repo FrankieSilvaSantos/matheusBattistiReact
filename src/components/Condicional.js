@@ -30,11 +30,13 @@ function Condicional() {
     return(
 
         <div>
-        <h1>Trabalhando com condicional</h1>
+        <h1 className="titulo-condicional">Trabalhando com condicional</h1>
 
-        <h2>Cadastre o seu Email</h2>
+        <h2 className="titulo-condicional">Cadastre o seu Email</h2>
 
-        <form onSubmit={enviarEmail}>
+        <div className="container-form-condicional">
+
+        <form  onSubmit={enviarEmail}>
   <div className="mb-3">
     <label htmlFor="email" className="form-label p">Email</label>
     <input type="email" pattern=".+@gmail\.com" className="form-control" id="email" 
@@ -79,6 +81,7 @@ function Condicional() {
   
 </form>
 
+        </div>
         </div>
 
     )

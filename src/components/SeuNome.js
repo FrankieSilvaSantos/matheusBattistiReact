@@ -20,9 +20,9 @@ function SeuNome() {
     return(
 
         <>
-        <h1>State Lift</h1>
+        <h1 style={{color:"white",textAlign:"center", marginTop:"20px"}}>State Lift</h1>
             <form>
-  <div className="mb-3 container">
+  <div className="mb-3 container-seunome">
     <label htmlFor="name" className="form-label label-name">Nome</label>
     <input type="text" className="form-control input-name" id="name" 
     aria-describedby="emailHelp" onChange={((e) => (setName(e.target.value)))} />

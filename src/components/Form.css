@@ -10,24 +10,33 @@
 
   }
 
-  form {
+  .form-style {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    border: 2px solid white;
+    padding: 20px;
+    width: 35%;
+    background-color: pink;
     
     justify-content: center;
+  }
+
+  .form-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
   }
 
 
   .button-style {
     position: relative;
-    right: 3em;
+    
   }
 
   .label {
-    position: relative;
-    right: 10.8em;
-    
+    color: white;
+    font-weight: bold;
   }
 
 

@@ -65,7 +65,13 @@ function Navbar() {
               <Link className="nav-link nav-link-style" aria-current="page" to="/">Home</Link>
               <Link className="nav-link nav-link-style" to="/empresa">Empresa</Link>
               <Link className="nav-link nav-link-style" to="/contato">Contato</Link>
-              
+              <Link className="nav-link nav-link-style" to="/seunome">Seu Nome</Link>
+              <Link className="nav-link nav-link-style" to="/form">Form</Link>
+              <Link className="nav-link nav-link-style" to="/condicional">Condicional</Link>
+              <Link className="nav-link nav-link-style" to="/outralista">Outra Lista</Link>
+              <Link className="nav-link nav-link-style" to="/api">Api</Link>
+     
+
 
             </div>
           </div>

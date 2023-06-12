@@ -48,6 +48,18 @@ function App() {
       
       <Route path="/contato" element={<Contato></Contato>}></Route>
 
+      <Route path="/api" element={<Api></Api>}></Route>
+
+      <Route path="/seunome" element={<SeuNome></SeuNome>}></Route>
+
+      <Route path="/form" element={<Form></Form>}></Route>
+
+      <Route path="/condicional" element={<Condicional></Condicional>}></Route>
+
+      <Route path="/outralista" element={<OutraLista></OutraLista>}></Route>
+
+      
+
     </Routes>
 
     <Footer></Footer>

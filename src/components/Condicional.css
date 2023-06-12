@@ -4,6 +4,26 @@
     font-weight: bold;
 }
 
+
+.titulo-condicional {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-form-condicional {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    width: 30%;
+    background-color: pink;
+    position: relative;
+    left: 30em;
+    margin-top: 30px;
+}
+
+
+
 .buttonCondicional {
-    width: 100px;
+    width: 120px;
 }

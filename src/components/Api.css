@@ -1,0 +1,21 @@
+.list-container {
+    text-align: center;
+       
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.container-lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+
+}
+
+.li-lista {
+    border: 3px solid black;
+    
+}

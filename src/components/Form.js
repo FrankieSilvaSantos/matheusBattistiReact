@@ -19,8 +19,9 @@ function Form() {
     return (
         
         <>
+        <div className="form-div">
+       <form className="form-style" onSubmit={cadastrarUsuario}>
        
-       <form onSubmit={cadastrarUsuario}>
   <div className="mb-3">
     <label htmlFor="name" className="form-label label">Nome</label>
     <input type="text" placeholder="digite seu nome" id="name" className="form-control input-text" pattern="[a-z A-Z]+"
@@ -36,8 +37,9 @@ function Form() {
         <div className="button">
   <button type="submit" className="btn btn-secondary button-style">Cadastrar</button>
   </div>
+ 
 </form>
-
+</div>
         
 
             {/* <h1>Meu cadastro</h1>
