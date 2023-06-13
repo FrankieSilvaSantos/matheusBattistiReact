@@ -1,6 +1,13 @@
 import './Navbar.css'
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {HiHome} from 'react-icons/hi';
+import {HiKey} from 'react-icons/hi';
+import {HiOutlineClipboardList} from 'react-icons/hi';
+import {HiPencil} from 'react-icons/hi';
+import {HiPhoneOutgoing} from 'react-icons/hi';
+import {HiOfficeBuilding} from 'react-icons/hi';
+
 
 function Navbar() {
   return (
@@ -62,14 +69,23 @@ function Navbar() {
           <div className="collapse navbar-collapse right" id="navbarNavAltMarkup">
             <div className="navbar-nav">
 
-              <Link className="nav-link nav-link-style" aria-current="page" to="/">Home</Link>
-              <Link className="nav-link nav-link-style" to="/empresa">Empresa</Link>
-              <Link className="nav-link nav-link-style" to="/contato">Contato</Link>
-              <Link className="nav-link nav-link-style" to="/seunome">Seu Nome</Link>
-              <Link className="nav-link nav-link-style" to="/form">Form</Link>
-              <Link className="nav-link nav-link-style" to="/condicional">Condicional</Link>
-              <Link className="nav-link nav-link-style" to="/outralista">Outra Lista</Link>
-              <Link className="nav-link nav-link-style" to="/api">Api</Link>
+              <Link className="nav-link nav-link-style" aria-current="page" to="/"><HiHome></HiHome> Home</Link>
+              <Link className="nav-link nav-link-style" to="/empresa"><HiOfficeBuilding>
+                </HiOfficeBuilding> Empresa</Link>
+
+              <Link className="nav-link nav-link-style" to="/contato"><HiPhoneOutgoing>
+                </HiPhoneOutgoing> Contato</Link>
+
+              <Link className="nav-link nav-link-style" to="/seunome"><HiPencil>
+                </HiPencil> Seu Nome</Link>
+
+              <Link className="nav-link nav-link-style" to="/form"><HiKey></HiKey> Form</Link>
+              <Link className="nav-link nav-link-style" to="/condicional"><HiKey></HiKey> Condicional</Link>
+              <Link className="nav-link nav-link-style" to="/outralista"><HiOutlineClipboardList>
+                </HiOutlineClipboardList> Outra Lista</Link>
+
+              <Link className="nav-link nav-link-style" to="/api"><HiOutlineClipboardList>
+                </HiOutlineClipboardList> Api</Link>
      
 
 
